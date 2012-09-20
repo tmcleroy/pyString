@@ -10,5 +10,5 @@ class Tile:
         self.x = 0
         self.y = 0
 
-        self.surface = pygame.image.load('img/'+self.letter+'.png')
+       #self.surface = pygame.image.load('img/'+self.letter+'.png')
         
