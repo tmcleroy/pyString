@@ -22,7 +22,7 @@ class WordUtils:
         if rand: random.shuffle(tile_list)
         #convert the char list to a Tile list
         for i in range(len(tile_list)):
-            tile_list[i] = Tile(tile_list[i])
+            tile_list[i] = Tile(tile_list[i], i+1)
         return tile_list
         
 
@@ -39,4 +39,4 @@ class WordUtils:
 
 
 #test
-u = WordUtils(Dictionary('dict.txt'))
+#u = WordUtils(Dictionary('dict.txt'))
