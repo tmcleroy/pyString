@@ -68,10 +68,10 @@ while True:
             tl = utils.getTileList(rand=True)
             go = True
 
-
-    for t in tl:
-        t.update()
-        t.draw(screen)
+    if go:
+        for t in tl:
+            t.update()
+            t.draw(screen)
 
     
 
